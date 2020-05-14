@@ -1,0 +1,20 @@
+<h1>Login View</h1>
+<a [routerLink]="['/tasks']">Go back to Tasks</a>
+<table>
+    <tr>
+        <th>Username</th>
+        <td>
+            <input type="text"  />
+        </td>
+    </tr>
+    <tr>
+        <th>Password</th>
+        <td>
+            <input type="password"  />
+        </td>
+    </tr>
+    <tr colspan="2">
+        <input type="button" value="Rest" (click)="onRest()"/>
+        <input type="button" value="Login" (click)="onLogin()"/> 
+    </tr>
+</table>
